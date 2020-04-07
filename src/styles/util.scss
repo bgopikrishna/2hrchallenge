@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+
+    &-row {
+        flex-direction: row;
+    }
+    &-column {
+        flex-direction: column;
+    }
+}
+.justify-content {
+    &-center {
+        justify-content: center;
+    }
+    &-end {
+        justify-content: flex-end;
+    }
+    &-start {
+        justify-content: flex-start;
+    }
+    &-between {
+        justify-content: space-between;
+    }
+    &-around {
+        justify-content: space-around;
+    }
+}
+
+.w-100 {
+    width: 100%;
+}

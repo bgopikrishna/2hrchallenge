@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.card {
+    width: 100%;
+    background: $dark;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    background: $pure-white;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in;
+    transition: transform 0.3s ease-in;
+    text-decoration: none;
+    color: inherit;
+
+    &--header {
+        color: $primary;
+        h3 {
+            margin-bottom: 0.2rem;
+            margin-top: 0em;
+        }
+    }
+
+    &:hover,
+    &:focus {
+        opacity: 1;
+        transform: scale(1.1);
+        transition: opacity 0.3s ease-out;
+        transition: transform 0.3s ease-out;
+    }
+}

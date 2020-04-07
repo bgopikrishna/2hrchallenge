@@ -1,0 +1,13 @@
+.gameslist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
+    padding: 2rem;
+    width: 100%;
+
+    .empty {
+        margin: 2rem;
+        font-weight: bold;
+    }
+}

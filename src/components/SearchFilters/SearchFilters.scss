@@ -1,0 +1,42 @@
+@import '../../styles/variables.scss';
+
+.filters {
+    align-items: center;
+    padding: 2rem 1rem;
+    input {
+        width: 100%;
+        background: $white;
+        border: 2px solid $dark;
+        padding: 0.4rem 1rem;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 300px;
+        outline: none;
+        margin: auto 1rem;
+
+        &:focus {
+            border-color: $primary;
+        }
+    }
+
+    label {
+        width: 100%;
+        max-width: 300px;
+        align-items: center;
+        select {
+            margin-left: 1rem;
+
+            background: $white;
+            border: 2px solid $dark;
+            padding: 0.4rem 1rem;
+            border-radius: 5px;
+
+            outline: none;
+            margin: auto 1rem;
+
+            &:focus {
+                border-color: $primary;
+            }
+        }
+    }
+}

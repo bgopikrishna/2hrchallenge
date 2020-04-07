@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.gameviewer {
+    button {
+        background: $white;
+        color: $dark;
+        outline: none;
+        border: 1px solid $dark;
+        padding: 0.5rem 1rem;
+        margin: 3rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        opacity: 0.8;
+
+        &:hover,
+        &:focus {
+            opacity: 1;
+            color: $black;
+            border-color: $black;
+            background: $pure-white;
+        }
+    }
+}
